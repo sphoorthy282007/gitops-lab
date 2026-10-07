@@ -5,7 +5,6 @@ namespace: webapp-argocd
 
 resources:
   - ../../base
-  - test-config.yaml
 
 replicas:
   - name: nginx
